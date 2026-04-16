@@ -15,9 +15,7 @@ It is not intended to assist in creating attacks or bypassing safety systems.
 
 **WARNING: "This version is explicitly NOT intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."**
 
-Legal & Compliance 
-© ZZZ_EPOCHE
-License: MIT License USA
+**Legal & Compliance **
 Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws. The author disclaims all liability. 
 European Union / EEA
 This software is explicitly not intended for placement on the EU market or use within the European Union or EEA. If used in the EU/EEA, the user must conduct their own full legal assessment and accept all liability. The tool is provided without any warranty of conformity with the EU AI Act or GDPR.
