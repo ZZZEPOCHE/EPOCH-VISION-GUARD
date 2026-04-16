@@ -9,7 +9,6 @@ This is an independent open-source defensive safety tool.
 Author: ZZZ_EPOCHE
 No affiliation with xAI, Anthropic, Google, OpenAI or any LLM provider.
 This tool is released under the MIT License for defensive and research purposes only.
-It is designed to detect and block harmful prompts, jailbreaks, and sensitive data leakage.
 It is not intended to assist in creating attacks or bypassing safety systems.
 
 **WARNING: "This version is explicitly NOT intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."**
@@ -179,7 +178,8 @@ Issue	Solution
 Rate limiting	Built-in retry + backoff
 JSON output not working	Use --json flag
 High latency	Reduce batch size or check API status
-Legal & Disclaimer (Strongly EU-Focused)
+
+Legal & Disclaimer
 MIT License
 Copyright © 2026 ZZZ_EPOCHE
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -220,5 +220,6 @@ The above copyright notice and this permission notice shall be included in all c
 ---
 •	Prohibited Uses: Do not use for non-consensual intimate imagery or illegal activity.
 •	No Liability: ZZZ_EPOCHE accepts zero liability for any regulatory fines or damages.
-No Maintenance: This project is released as final.
+•	No Maintenance: This project is released as final.
+
 © ZZZ_EPOCHE — April 15, 2026
