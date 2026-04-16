@@ -10,7 +10,6 @@ This is an independent open-source defensive safety tool.
 Author: ZZZ_EPOCHE
 No affiliation with xAI, Anthropic, Google, OpenAI or any LLM provider.
 This tool is released under the MIT License for defensive and research purposes only.
-It is designed to detect and block harmful prompts, jailbreaks, and sensitive data leakage.
 It is not intended to assist in creating attacks or bypassing safety systems.
 
 **WARNING: "This version is explicitly NOT intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."**
