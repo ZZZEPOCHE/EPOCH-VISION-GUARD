@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 EPOCH-VISION-GUARD
 Hybrid Text + Image Safety Guard
