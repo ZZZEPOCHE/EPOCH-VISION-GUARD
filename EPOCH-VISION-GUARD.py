@@ -1,3 +1,28 @@
+#!/usr/bin/env python3
+"""
+EPOCH-VISION-GUARD
+Hybrid Text + Image Safety Guard
+
+# WARNING: "This version is explicitly NOT intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."
+
+Legal & Compliance 
+Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws. The author disclaims all liability. 
+European Union / EEA
+This software is explicitly not intended for placement on the EU market or use within the European Union or EEA. If used in the EU/EEA, the user must conduct their own full legal assessment and accept all liability. The tool is provided without any warranty of conformity with the EU AI Act or GDPR.
+Rest of the World
+Users bear full responsibility for compliance with all local laws and regulations.
+Static Release Policy
+This is a final, frozen version (April 2026). No maintenance, updates, or security patches will be provided.
+Intended Use
+Defensive safety research, artistic, technical, educational, and personal use only.
+
+**Code Name:** EPOCH-VISION-G
+**Version:** 1.0 (Static Release – April 2026)  
+**Author:** ZZZ_EPOCHE  
+**Date of Creation:** 2026-04-15
+
+"""
+
 import asyncio
 import base64
 import os
