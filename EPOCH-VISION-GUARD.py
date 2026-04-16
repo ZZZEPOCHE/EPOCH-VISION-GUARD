@@ -2,6 +2,15 @@
 EPOCH-VISION-GUARD
 Hybrid Text + Image Safety Guard
 
+## Legal Disclosure
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This is an independent open-source project.  
+**No affiliation or compensation exists** with xAI, Anthropic, Google, OpenAI or any AI laboratory.  
+The author owns the evaluated profile and repositories.  
+All analysis and code are based solely on publicly available tools and APIs.  
+This tool is released under the **MIT License** for defensive and research purposes only.  
+It is **not** intended to assist in creating attacks or bypassing safety systems.
+
 # WARNING: "This version is explicitly NOT intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."
 
 Legal & Compliance 
