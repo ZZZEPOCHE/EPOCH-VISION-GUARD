@@ -1,32 +1,36 @@
 # EPOCH-VISION-GUARD
 
+Important Notice & Disclaimer
+
+This tool is intended strictly for research and personal use only.
+
+It is NOT a substitute for professional engineering, commercial, marketing, publicity, financial, medical, psychological, educational, forensic, legal or any other type of advice. Users must exercise their own judgment and seek appropriate professional guidance when necessary.
+
+No Warranty
+The tool is provided on an "AS IS" and "AS AVAILABLE" basis. The author makes no representations or warranties of any kind, express or implied, regarding the accuracy, reliability, completeness, or suitability of the tool or its outputs.
+
+The author expressly disclaims all liability for any direct, indirect, incidental, consequential, special, or other damages arising from the use or inability to use this tool, including but not limited to any harm, loss, or injury.
+
+EU/EEA Compliance This tool has not been assessed for compliance with the EU AI Act, GDPR, or any other applicable European regulations. Users in the European Union or European Economic Area assume all risks and responsibilities regarding regulatory compliance, data protection, and legal obligations. Use in these jurisdictions is entirely at the user's own risk.
+
+By using this tool, you acknowledge that you have read, understood, and accepted this disclaimer in full.
+Legal Disclosure
+
+This is an independent open-source project.
+No affiliation or compensation exists with any AI laboratory or commercial entity.
+
+This tool is released under the MIT License for research and personal use only.
+
+Static Release: This is a final frozen version. No further updates are planned.
+
+USA: Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws.
+Rest of the World: Users bear full responsibility for compliance with all local laws and regulations.
+
+---
+
 **Grok Vision Analyzer with Intelligent Vision → Text Fallback**  
 A clean, robust, and production-oriented CLI tool for analyzing images using the xAI Grok API. It intelligently attempts all known Grok vision models first. If vision access is unavailable on your API key, it automatically falls back to text-only Grok models combined with enhanced PIL-generated image descriptions.
 Designed for **AI research labs, red/blue/purple teams, security researchers, compliance teams, and enterprise users** who need reliable, auditable, and privacy-conscious image analysis — even under restricted API conditions.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Legal Disclosure
-This is an independent open-source project.  
-**No affiliation or compensation exists** with xAI, Anthropic, Google, OpenAI or any AI laboratory.  
-The author owns the evaluated profile and repositories.  
-All analysis and code are based solely on publicly available tools and APIs.  
-This tool is released under the **MIT License** for defensive and research purposes only.  
-It is **not** intended to assist in creating attacks or bypassing safety systems.
-
-**WARNING: "This version is explicitly not intended for use in the European Union or EEA. It is not designed to meet EU AI Act or GDPR requirements. Any use in the EU/EEA is entirely at the user's own risk and responsibility."**
-
-Legal & Compliance 
-© ZZZ_EPOCHE
-**License**: MIT License (see [LICENSE](LICENSE) file)
-EU AI Act & GDPR:
-Users in the EU/EEA must perform their own conformity assessment and assume full liability. Users in the EU/EEA: Please ensure full regulatory compliance before deployment.
-USA:
-Users are solely responsible for compliance with all U.S. laws.
-Rest of the World:
-Users bear full responsibility for local legal compliance.
-Static Release:
-This is a final frozen version. No further updates will be provided.
 
 **Code Name:** EPOCH-VISION-G
 **Version:** 1.0 (Static Release – April 2026)  
@@ -182,47 +186,18 @@ Rate limiting	Built-in retry + backoff
 JSON output not working	Use --json flag
 High latency	Reduce batch size or check API status
 
-Legal & Disclaimer
-MIT License
-Copyright © 2026 ZZZ_EPOCHE
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED**, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
-### Jurisdiction-Specific Warnings and Disclaimers
-#### 1. United States of America
-- **No Warranties or Guarantees**: This software is provided strictly "as is". ZZZ_EPOCHE makes no representations or warranties of any kind, including but not limited to accuracy, reliability, fitness for any particular purpose, or non-infringement.
-- **Compliance Responsibility**: Users are solely responsible for ensuring compliance with all applicable federal, state, and local laws, including but not limited to the California Consumer Privacy Act (CCPA/CPRA), Health Insurance Portability and Accountability Act (HIPAA), and any sector-specific regulations.
-- **No Medical or High-Risk Use**: This tool is not intended for clinical diagnosis, medical decision-making, or any use that could impact individual health or safety. Any such use is strictly prohibited and done at the user's sole risk.
-- **Liability Limitation**: To the maximum extent permitted by law, ZZZ_EPOCHE and its affiliates shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use or inability to use this software.
-- **Export Controls**: Users must comply with all U.S. export control laws, including ITAR and EAR. This software may not be used in prohibited jurisdictions or by prohibited persons/entities.
-#### 2. European Union and United Kingdom
-- **GDPR / UK GDPR Compliance**: Processing of images through this tool may constitute processing of personal data. The user is **solely and exclusively responsible** for establishing a lawful basis for processing, conducting Data Protection Impact Assessments (DPIA) where required, implementing appropriate technical and organizational measures, and fulfilling all data subject rights. The built-in PII redaction is a best-effort feature only and does **not** guarantee GDPR compliance.
-- **EU AI Act**: This tool interacts with general-purpose AI models. Users must independently assess and comply with all obligations under the EU AI Act, including transparency, risk classification, human oversight, and documentation requirements. This tool is **not** certified for high-risk AI systems.
-- **Digital Services Act (DSA)**: Users must not use this tool to process or facilitate illegal content, including non-consensual intimate imagery or deepfakes.
-- **Liability**: ZZZ_EPOCHE accepts **no liability** for any administrative fines, sanctions, or claims under GDPR (up to 4% of global annual turnover), the EU AI Act, DSA, or any national implementing laws.
-- **Data Transfers**: Users are responsible for ensuring any transfer of personal data to xAI (a U.S.-based company) complies with Chapter V of the GDPR (international transfers).
-#### 3. Rest of the World
-- Users outside the United States and European Union are solely responsible for complying with all applicable local, national, and regional laws regarding data protection, privacy, artificial intelligence, export controls, and content regulation in their jurisdiction.
-- ZZZ_EPOCHE makes no representation that this software complies with the laws of any specific country outside the U.S. and EU. Use in jurisdictions with strict AI or data protection regimes (e.g., China, Brazil, India, etc.) is at the user's sole risk and responsibility.
-
----
-
 ### General Disclaimers (Apply Globally)
 
 - **Prohibited Uses**: This tool must not be used for any illegal, harmful, or unethical purpose, including but not limited to:
   - Creation or analysis of non-consensual intimate, sexual, or exploitative imagery
   - Harassment, discrimination, or hate speech
   - Any activity that violates criminal or civil laws in any jurisdiction
-
-- **No Maintenance or Support**: This is a final release. There will be **no updates, bug fixes, security patches, feature additions, or technical support** provided now or in the future. Users assume full responsibility for security, compatibility, and ongoing compliance.
-
 - **No Liability**: To the fullest extent permitted by law, ZZZ_EPOCHE, its authors, contributors, and any affiliated parties disclaim **all liability** for any damages, losses, fines, legal claims, or consequences arising from the use or misuse of this software, regardless of the legal theory.
-
 - **Use at Your Own Risk**: You use this software entirely at your own risk. It is strongly recommended that you consult qualified legal counsel in your jurisdiction before using this tool in any production, commercial, sensitive, or regulated environment.
-
----
 •	Prohibited Uses: Do not use for non-consensual intimate imagery or illegal activity.
 •	No Liability: ZZZ_EPOCHE accepts zero liability for any regulatory fines or damages.
-•	No Maintenance: This project is released as final.
 
-© ZZZ_EPOCHE — April 15, 2026
+Copyright © 2026 ZZZ_EPOCHE All rights reserved. License: MIT License
+Final Note
+Use responsibly and in accordance with all applicable laws.
+
